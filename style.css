@@ -3,3 +3,26 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+/************* Header Main Footer *************/
+header{
+    background-color: #2C3E50;
+}
+
+/************* /Header Main Footer *************/
+
+
+
+
+/************* Contenuto Header *************/
+.navica{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+/************* /Contenuto Header *************/
