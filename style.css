@@ -46,7 +46,7 @@ header{
 
 
 /****** Sezione Portfolio ******/
-.titolo{
+.titolo, .titolo_bianco{
     margin: 30px auto;
     width: 100%;
     text-align: center;
@@ -85,4 +85,15 @@ img{
     width: 100%;
 }
 /****** /Sezione Portfolio ******/
+
+
+/****** Sezione About ******/
+.titolo_bianco{
+    color: #FFFFFF;
+}
+
+.tex{
+    text-align: center;
+}
+/****** /Sezione About ******/
 /************* /Contenuto Main *************/
