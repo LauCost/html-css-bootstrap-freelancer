@@ -32,12 +32,57 @@ header{
 
 /************* Contenuto Main *************/
 
+
+/****** Sezione Start Bootstrap ******/
 .verde{
     background-color: #1ABC9C;
 }
 
 .boot{
-    padding: 100px 0;
+    padding: 300px 0;
     width: 100%;
 }
+/****** /Sezione Start Bootstrap ******/
+
+
+/****** Sezione Portfolio ******/
+.titolo{
+    margin: 30px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.cabin, .cake, .circus, .game, .safe, .submarine{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.cabin{
+    background-color: #BA4B63;
+}
+
+.cake{
+    background-color: #1EA4B6;
+}
+
+.circus{
+    background-color: #140F0F;
+}
+
+.game{
+    background-color: #1C83C1;
+}
+
+.safe{
+    background-color: #0E38B5;
+}
+
+.submarine{
+    background-color: #CCB2A3;
+}
+
+img{
+    width: 100%;
+}
+/****** /Sezione Portfolio ******/
 /************* /Contenuto Main *************/
