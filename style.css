@@ -36,7 +36,6 @@ header{
 /****** Sezione Start Bootstrap ******/
 .verde{
     background-color: #1ABC9C;
-    text-align: center;
 }
 
 .white{
@@ -113,5 +112,9 @@ h4{
     color: #FFFFFF;
     text-align: center;
     margin-top: 1rem;
+}
+
+.colore_verde{
+    color: #1ABC9C;
 }
 /************* /Contenuto Footer *************/
