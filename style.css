@@ -43,6 +43,56 @@ header{
     width: 25%;
     margin: auto;
 }
+
+.cont_star, .cont_star2{
+    position: relative;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.cont_star::before, .cont_star2::before{
+    content: "";
+    width: 200px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-70%);
+    
+}
+
+.cont_star::before{
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.cont_star2::before{
+    border: 1px solid #000000;
+    background-color: #000000;
+}
+
+.cont_star::after, .cont_star2::after{
+    content: "";
+    width: 200px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translateY(-70%);
+    
+}
+
+.cont_star::after{
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.cont_star2::after{
+    border: 1px solid #000000;
+    background-color: #000000;
+}
 /****** /Sezione Start Bootstrap ******/
 
 
@@ -115,3 +165,64 @@ h4{
     color: #1ABC9C;
 }
 /************* /Contenuto Footer *************/
+
+
+
+
+
+
+
+/******** Query ********/
+@media screen and (max-width: 1200px) {
+    .cont_star::before, .cont_star2::before{
+    left: 25%;
+    transform: translateY(-75%);
+    }
+
+    .cont_star::after, .cont_star2::after{
+    right: 25%;
+    transform: translateY(-75%);
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .cont_star::before, .cont_star2::before{
+        left: 20%;
+        transform: translateY(-80%);
+    }
+
+    .cont_star::after, .cont_star2::after{
+    right: 20%;
+    transform: translateY(-80%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cont_star::before, .cont_star2::before{
+        width: 150px;
+        left: 15%;
+        transform: translateY(-85%);
+    }
+
+    .cont_star::after, .cont_star2::after{
+    width: 150px;
+    right: 15%;
+    transform: translateY(-85%);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cont_star::before, .cont_star2::before{
+        width: 100px;
+        left: 20%;
+        transform: translateY(-80%);
+    }
+
+    .cont_star::after, .cont_star2::after{
+        width: 100px;
+    right: 20%;
+    transform: translateY(-80%);
+    }
+}
+/******** Query ********/
