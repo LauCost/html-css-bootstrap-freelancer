@@ -36,17 +36,22 @@ header{
 /****** Sezione Start Bootstrap ******/
 .verde{
     background-color: #1ABC9C;
+    text-align: center;
+}
+
+.white{
+    color: #FFFFFF;
 }
 
 .boot{
-    padding: 300px 0;
-    width: 100%;
+    width: 25%;
+    margin: auto;
 }
 /****** /Sezione Start Bootstrap ******/
 
 
 /****** Sezione Portfolio ******/
-.titolo, .titolo_bianco{
+h1{
     margin: 30px auto;
     width: 100%;
     text-align: center;
@@ -83,17 +88,15 @@ header{
 
 img{
     width: 100%;
+    border-radius: 15px;
 }
 /****** /Sezione Portfolio ******/
 
 
 /****** Sezione About ******/
-.titolo_bianco{
-    color: #FFFFFF;
-}
 
 .tex{
-    text-align: center;
+    font-size: 18px;
 }
 /****** /Sezione About ******/
 /************* /Contenuto Main *************/
