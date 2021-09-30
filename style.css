@@ -75,6 +75,18 @@ img{
     font-size: 20px;
 }
 /****** /Sezione About ******/
+
+
+/****** Sezione Contatta ******/
+.back_verde{
+    background-color: #1ABC9C;
+    border: none;
+}
+
+.pb_10{
+    padding-bottom: 10rem;
+}
+/****** /Sezione Contatta ******/
 /************* /Contenuto Main *************/
 
 
